@@ -15,7 +15,7 @@ class AssessmentClient {
     
     func getAssessments(completion: @escaping ([Assessment]?, (Error?)) -> ()) {
         
-        let assessments = Resource<[Assessment]>(get: oneAssessmentURL)
+        let assessments = Resource<[Assessment]>(get: twoAssessmentURL)
 
         URLSession.shared.load(assessments) { (assessments) in
             
