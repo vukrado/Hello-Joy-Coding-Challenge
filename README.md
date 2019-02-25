@@ -1,6 +1,8 @@
 # Hello-Joy-Coding-Challenge
 Coding challenge for HelloJoy.
 
+![](sample.gif)
+
 To switch between test patients "Jane Doe" & "Frank Smith" go to *AssessmentClient.swift* and change line 18 to use *oneAssessmentURL* or *twoAssessmentURL*.
 
 ## Task & Requirements
